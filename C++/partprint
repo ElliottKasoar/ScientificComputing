@@ -1,0 +1,20 @@
+plot 'tmp/file10' every 1::t::t u 1:21 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 2:22 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 3:23 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 4:24 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 5:25 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 6:26 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 7:27 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 8:28 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 9:29 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 10:30 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 11:31 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 12:32 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 13:33 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 14:34 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 15:35 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 16:36 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 17:37 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 18:38 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 19:39 w p ps 5 pt 5,\
+'tmp/file10' every 1::t::t u 20:40 w p ps 5 pt 5
