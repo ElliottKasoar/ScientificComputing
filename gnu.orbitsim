@@ -1,0 +1,29 @@
+## Here begins the file gnu.orbitsim
+## Works with orbits_sim.cc
+## Requires output in 'output/6', 'Earth' containing '0 [tab] 0' and 'gnuC11'
+
+## Make movies from data files, using "load" and "every"
+set size ratio -1
+set nokey
+r = 1000000000 ; r2= 1000000000
+set xrange [-r:r2]
+set yrange [-r:r2]
+## set up some plotting styles -- not essential! --
+set termoption dashed
+set style line 4 ps 6 lt 4 pt 7;
+set style line 5 lt 5 lw 0.3;   ## narrow lines
+set style line 2 lt 2 lw 0.3;   ## narrow lines
+set pointsize 3
+
+### set up the plot for this movie
+t=0;   ## start at line zero
+dt=100; ## step through lines by this much
+T=9800; ## go until this line reached
+## Plot each object, and the trail of where it has been.
+plot 'Earth' w p ps 3 pt 7 , \
+ 'output/6' every 1::t::t u (-$4):2 w p ps 2 pt 7,\
+ 'output/6' every 1::t::t u (-$5):3 w p ps 1 pt 7,\
+ 'output/6' every 10::0::t u (-$4):2 w l ls  2 , \
+ 'output/6' every 10::0::t u (-$5):3 w l ls  1
+
+load 'gnuC11'

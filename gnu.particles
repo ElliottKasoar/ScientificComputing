@@ -1,0 +1,29 @@
+##Here begins gnu.particles
+
+##Creates a video for 2D_particles.cc
+##Requires 'partprint' and 'gnuC11' in the same dir
+##'partprint' can be generated from 2D_particles.cc
+##'partprint' requires data from 2D_particles.cc in 'tmp/file10'
+## Make movies from data files, using "load" and "every"
+
+set size ratio -1
+set nokey
+set xrange [0:10]
+set yrange [0:10]
+## set up some plotting styles -- not essential! --
+set termoption dashed
+set style line 4 ps 6 lt 4 pt 7;
+set style line 5 lt 5 lw 0.3;   ## narrow lines
+set style line 2 lt 2 lw 0.3;   ## narrow lines
+set pointsize 3
+
+### set up the plot for this movie
+t=0;   ## start at line zero
+dt=40; ## step through lines by this much
+T=9000; ## go until this line reached
+
+## Plot each object.
+	
+load 'partprint' 
+
+load 'gnuC11'
