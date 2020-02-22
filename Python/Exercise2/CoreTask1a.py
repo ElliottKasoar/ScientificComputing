@@ -6,7 +6,7 @@ Created on Tue Jan 30 14:42:23 2018
 @author: Elliott
 """
 
-#Exercise 2, Core Task 1- Check energy conservation and comparison of theoretical and calculated values
+#Exercise 2, Core Task 1 - Check energy conservation and comparison of theoretical and calculated values
 
 import numpy as np
 from numpy import sin, cos
