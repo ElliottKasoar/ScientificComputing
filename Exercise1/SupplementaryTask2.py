@@ -79,6 +79,4 @@ plt.savefig("Amp_1.eps",format='eps', dpi=1000)
 #plt.title("Phase of Fresnel diffraction for distance to screen of 1m")
 #plt.savefig("Phase_1.eps",format='eps', dpi=1000)
 
-
-
 plt.show()
