@@ -29,7 +29,7 @@ struct particle {
   double im; 	// inverse mass
   double v[D]; 	// velocity
   double T; 	// kinetic energy
-  double r;		// radius of particle
+  double r;	// radius of particle
 };
 
 #define ranf() \
